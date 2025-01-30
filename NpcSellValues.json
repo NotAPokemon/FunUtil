@@ -28,10 +28,6 @@
     "price": 1600
   },
   {
-    "id":"FRESHLY_MINTED_COINS",
-    "price": 0
-  },
-  {
     "id":"ENCHANTED_GLISTERING_MELON",
     "price": 1000
   },
@@ -198,6 +194,214 @@
   {
     "id":"CARROT_BAIT",
     "price": 7
+  },
+  {
+    "id":"FINE_RUBY_GEM",
+    "price": 19200
+  },
+  {
+    "id":"THUNDER_SHARDS",
+    "price": 50000
+  },
+  {
+    "id":"ENCHANTED_ROTTEN_FLESH",
+    "price": 320
+  },
+  {
+    "id":"ENCHANTED_GRILLED_PORK",
+    "price": 128000
+  },
+  {
+    "id":"OVERGROWN_GRASS",
+    "price": 1
+  },
+  {
+    "id":"PUMPKIN_BOMB",
+    "price": 530
+  },
+  {
+    "id":"ENCHANTED_LAVA_BUCKET",
+    "price": 50000
+  },
+  {
+    "id":"BUBBA_BLISTER",
+    "price": 10000
+  },
+  {
+    "id":"ENCHANTED_UMBER",
+    "price": 1600
+  },
+  {
+    "id":"ROUGH_AQUAMARINE_GEM",
+    "price": 3
+  },
+  {
+    "id":"DIAMOND_ATOM",
+    "price": 1
+  },
+  {
+    "id":"PRECURSOR_GEAR",
+    "price": 1
+  },
+  {
+    "id":"WHALE_BAIT",
+    "price": 80
+  },
+  {
+    "id":"SPONGE",
+    "price": 50
+  },
+  {
+    "id":"ENCHANTED_DARK_OAK_LOG",
+    "price": 320
+  },
+  {
+    "id":"ENCHANTED_RAW_CHICKEN",
+    "price": 640
+  },
+  {
+    "id":"ENCHANTED_WATER_LILY",
+    "price": 1600
+  },
+  {
+    "id":"RED_SCARF",
+    "price": 1
+  },
+  {
+    "id":"TITANIUM_ORE",
+    "price": 20
+  },
+  {
+    "id":"CHILI_PEPPER",
+    "price": 5000
+  },
+  {
+    "id":"ENCHANTED_HAY_BALE",
+    "price": 153600
+  },
+  {
+    "id":"ENCHANTED_CACTUS",
+    "price": 102400
+  },
+  {
+    "id":"SALT_CUBE",
+    "price": 1
+  },
+  {
+    "id":"ONYX",
+    "price": 1
+  },
+  {
+    "id":"ENCHANTED_SULPHUR",
+    "price": 1600
+  },
+  {
+    "id":"ENCHANTED_COOKED_SALMON",
+    "price": 256000
+  },
+  {
+    "id":"TITANIUM_TESSERACT",
+    "price": 1
+  },
+  {
+    "id":"ENCHANTED_SEEDS",
+    "price": 480
+  },
+  {
+    "id":"ENCHANTED_BONE_MEAL",
+    "price": 1
+  },
+  {
+    "id":"ENCHANTED_BONE_BLOCK",
+    "price": 51200
+  },
+  {
+    "id":"SMALL_ENCHANTED_CHEST",
+    "price": 65
+  },
+  {
+    "id":"POLISHED_PUMPKIN",
+    "price": 256000
+  },
+  {
+    "id":"ENCHANTED_GOLD_BLOCK",
+    "price": 76800
+  },
+  {
+    "id":"FINE_OPAL_GEM",
+    "price": 19200
+  },
+  {
+    "id":"ENCHANTED_FLINT",
+    "price": 640
+  },
+  {
+    "id":"SCORCHED_POWER_CRYSTAL",
+    "price": 350000
+  },
+  {
+    "id":"FURBALL",
+    "price": 1
+  },
+  {
+    "id":"ENCHANTED_CLAY_BALL",
+    "price": 480
+  },
+  {
+    "id":"GLOWSTONE_DUST",
+    "price": 2
+  },
+  {
+    "id":"IMPLOSION_SCROLL",
+    "price": 1
+  },
+  {
+    "id":"CROPIE",
+    "price": 25000
+  },
+  {
+    "id":"MILLENIA_OLD_BLAZE_ASHES",
+    "price": 1000
+  },
+  {
+    "id":"ENCHANTED_BONE",
+    "price": 320
+  },
+  {
+    "id":"OPTICAL_LENS",
+    "price": 1
+  },
+  {
+    "id":"LAVA_WATER_ORB",
+    "price": 5000
+  },
+  {
+    "id":"ENCHANTED_DIAMOND_BLOCK",
+    "price": 204800
+  },
+  {
+    "id":"LIGHT_BAIT",
+    "price": 16
+  },
+  {
+    "id":"HOT_POTATO_BOOK",
+    "price": 38400
+  },
+  {
+    "id":"CUP_OF_BLOOD",
+    "price": 200
+  },
+  {
+    "id":"MAGIC_MUSHROOM_SOUP",
+    "price": 4
+  },
+  {
+    "id":"CLAY_BALL",
+    "price": 3
+  },
+  {
+    "id":"FRESHLY_MINTED_COINS",
+    "price": 0
   },
   
   
