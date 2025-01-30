@@ -10,7 +10,6 @@ plugins {
     id 'application'
 }
 
-group = 'com.github.YourGitHubUsername'  // Replace with your GitHub username
 version = 'v1.0.1'
 
 repositories {
