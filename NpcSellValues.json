@@ -5,19 +5,203 @@
   },
   {
     "id":"DARK_ORB",
+    "price": 1
+  },
+  {
+    "id":"RITUAL_RESIDUE",
+    "price": 10000
+  },
+  {
+    "id":"RITUAL_RESIDUE",
+    "price": 500000
+  },
+  {
+    "id":"ENCHANTED_MELON",
+    "price": 320
+  },
+  {
+    "id":"ENCHANTED_BLAZE_ROD",
+    "price": 230400
+  },
+  {
+    "id":"ENCHANTED_BROWN_MUSHROOM",
+    "price": 1600
+  },
+  {
+    "id":"FRESHLY_MINTED_COINS",
+    "price": 0
+  },
+  {
+    "id":"ENCHANTED_GLISTERING_MELON",
     "price": 1000
   },
   {
-    "id":"ARCHITECT_FIRST_DRAFT",
+    "id":"MAGMAG",
+    "price": 50
+  },
+  {
+    "id":"ENCHANTED_MELON_BLOCK",
+    "price": 51200
+  },
+  {
+    "id":"CONDENSED_FERMENTO",
+    "price": 2250000
+  },
+  {
+    "id":"BEADY_EYES",
+    "price": 1000
+  },
+  {
+    "id":"DIAMOND",
+    "price": 8
+  },
+  {
+    "id":"COBBLESTONE",
+    "price": 1
+  },
+  {
+    "id":"ENCHANTED_PUFFERFISH",
+    "price": 2400
+  },
+  {
+    "id":"MINION_EXPANDER",
+    "price": 4000
+  },
+  {
+    "id":"HORN_OF_TAURUS",
+    "price": 500
+  },
+  {
+    "id":"END_STONE_SHULKER",
+    "price": 1
+  },
+  {
+    "id":"ENCHANTED_HARD_STONE",
+    "price": 576
+  },
+  {
+    "id":"WINTER_FRAGMENT",
+    "price": 500
+  },
+  {
+    "id":"ENDER_MONOCLE",
+    "price": 1
+  },
+  {
+    "id":"KELVIN_INVERTER",
+    "price": 100000
+  },
+  {
+    "id":"REFINED_DIAMOND",
+    "price": 4096
+  },
+  {
+    "id":"X",
+    "price": 20
+  },
+  {
+    "id":"Y",
+    "price": 30
+  },
+  {
+    "id":"Z",
+    "price": 50
+  },
+  {
+    "id":"HAZMAT_ENDERMAN",
+    "price": 1
+  },
+  {
+    "id":"LUXURIOUS_SPOOL",
+    "price": 1
+  },
+  {
+    "id":"FLAWED_OPAL_GEM",
+    "price": 240
+  },
+  {
+    "id":"PORK",
+    "price": 5
+  },
+  {
+    "id":"FLAMES",
+    "price": 200
+  },
+  {
+    "id":"PET_CAKE",
+    "price": 10
+  },
+  {
+    "id":"HONEY_JAR",
     "price": 100
   },
   {
-    "id":"RITUAL_RESIDUE",
+    "id":"ULTIMATE_CARROT_CANDY",
+    "price": 1
+  },
+  {
+    "id":"SOLAR_PANEL",
+    "price": 10000
+  },
+  {
+    "id":"UNDEAD_CATALYST",
+    "price": 2000
+  },
+  {
+    "id":"ENCHANTED_SNOW_BLOCK",
+    "price": 600
+  },
+  {
+    "id":"REFINED_TUNGSTEN",
+    "price": 256000
+  },
+  {
+    "id":"MUTATED_BLAZE_ASHES",
+    "price": 200
+  },
+  {
+    "id":"FLY_SWATTER",
     "price": 500000
   },
   {
-    "id":"RITUAL_RESIDUE",
-    "price": 500000
+    "id":"ENCHANTED_ACACIA_LOG",
+    "price": 320
   },
+  {
+    "id":"SAND",
+    "price": 2
+  },
+  {
+    "id":"PLASMA_BUCKET",
+    "price": 50000
+  },
+  {
+    "id":"ANCIENT_CLAW",
+    "price": 200
+  },
+  {
+    "id":"ENCHANTED_GHAST_TEAR",
+    "price": 80
+  },
+  {
+    "id":"ENCHANTED_COCOA",
+    "price": 480
+  },
+  {
+    "id":"AMBER_MATERIAL",
+    "price": 1
+  },
+  {
+    "id":"FINE_TOPAZ_GEM",
+    "price": 19200
+  },
+  {
+    "id":"CARROT_BAIT",
+    "price": 7
+  },
+  
+  
+  
+  
   
 ]
