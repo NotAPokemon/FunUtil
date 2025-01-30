@@ -1,1 +1,23 @@
-
+[
+  {
+    "id":"TARANTULA_WEB",
+    "price": 1
+  },
+  {
+    "id":"DARK_ORB",
+    "price": 1000
+  },
+  {
+    "id":"ARCHITECT_FIRST_DRAFT",
+    "price": 100
+  },
+  {
+    "id":"RITUAL_RESIDUE",
+    "price": 500000
+  },
+  {
+    "id":"RITUAL_RESIDUE",
+    "price": 500000
+  },
+  
+]
