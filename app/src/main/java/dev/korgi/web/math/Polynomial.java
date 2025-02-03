@@ -12,6 +12,23 @@ public class Polynomial {
         sort();
     }
 
+
+    public Polynomial(String text){
+        this.composition = parseText(text)
+        sort();
+    }
+
+    public X[] parseText(String text){
+        List<String> tokens = new ArrayList();
+        List<X> restult = new ArrayList();
+        String current = "";
+        for (int i = 0; i < text.length){
+            //implement later
+        }
+
+        return restult.toArray(new X[0]);
+    }
+
     public double evaluate(double value){
         double res = 0;
         for (int i = 0; i < composition.length; i++){
