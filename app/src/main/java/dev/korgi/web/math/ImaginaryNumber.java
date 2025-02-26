@@ -1,7 +1,5 @@
 package dev.korgi.web.math;
 
-import static dev.korgi.web.math.MustangMath.π;
-
 public class ImaginaryNumber {
     private double real;
     private double imaginary;
@@ -82,6 +80,6 @@ public class ImaginaryNumber {
     }
   
     public double eTothePiI() {
-      return Math.cos(π) + Math.sin(π) * imaginary;
+      return Math.cos(Math.PI) + Math.sin(Math.PI) * imaginary;
     }
   }

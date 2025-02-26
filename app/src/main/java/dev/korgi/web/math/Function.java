@@ -5,9 +5,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class Polynomial {
+public class Function {
     X[] composition;
-    public Polynomial(X... composition){
+    public Function(X... composition){
         this.composition = composition;
         sort();
     }
@@ -24,7 +24,7 @@ public class Polynomial {
         Arrays.sort(composition, Comparator.comparingDouble((X x) -> x.degree).reversed());
     }
 
-    public Polynomial getDerivative(){
+    public Function getDerivative(){
         List<X> newComp = new ArrayList<X>();
         for (int i = 0; i < composition.length; i++){
             if (composition[i].coefficent * composition[i].degree == 0){
@@ -32,11 +32,11 @@ public class Polynomial {
             }
             newComp.add(new X(composition[i].coefficent * composition[i].degree, composition[i].degree - 1));
         }
-        return new Polynomial(newComp.toArray(new X[0]));
+        return new Function(newComp.toArray(new X[0]));
     }
 
 
-    public Polynomial getDerivative(int times){
+    public Function getDerivative(int times){
         List<X> newComp = new ArrayList<X>();
         for (int i = 0; i < composition.length; i++){
             if (composition[i].coefficent * composition[i].degree == 0){
@@ -45,9 +45,9 @@ public class Polynomial {
             newComp.add(new X(composition[i].coefficent * composition[i].degree, composition[i].degree - 1));
         }
         if (times == 1){
-            return new Polynomial(newComp.toArray(new X[0]));
+            return new Function(newComp.toArray(new X[0]));
         }
-        return new Polynomial(newComp.toArray(new X[0])).getDerivative(times - 1);
+        return new Function(newComp.toArray(new X[0])).getDerivative(times - 1);
     }
 
     public boolean isConstant(){
