@@ -13,5 +13,12 @@ public class MustangMath {
     public static double DegreesToRotations(double theta, double gearRatio){
         return (theta / gearRatio) * 360.0;
     }
+
+    /**
+     * @precondition: softLimits is an array of two floats, where the first element is the lower limit and the second element is the upper limit.
+     */
+    public static boolean checkSoftLimits(float[] softLimits, double position){
+        return position > softLimits[0] && position < softLimits[1];
+    }
     
 }
