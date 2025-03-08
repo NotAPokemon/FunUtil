@@ -4,11 +4,36 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Function {
     X[] composition;
     public Function(X... composition){
         this.composition = composition;
+        sort();
+    }
+
+    public Function(String func){
+        func = func.replaceAll("\\s+", "");
+        List<X> terms = new ArrayList<>();
+
+        Pattern pattern = Pattern.compile("([+-]?\\d*\\.?\\d*)(x(?:\\^(\\d+))?)?");
+        Matcher matcher = pattern.matcher(func);
+        while (matcher.find()) {
+            String coeffStr = matcher.group(1);  // Coefficient part
+            String xPart = matcher.group(2);     // "x" part (null if constant)
+            String degreeStr = matcher.group(3); // Exponent part (null if linear term)
+            
+            double coeff = (coeffStr.equals("") || coeffStr.equals("+")) ? 1 :
+                           (coeffStr.equals("-")) ? -1 * Double.parseDouble(coeffStr) : Double.parseDouble(coeffStr);
+            int degree = (xPart == null) ? 0 : (degreeStr == null ? 1 : Integer.parseInt(degreeStr));
+            
+            terms.add(new X(coeff, degree));
+        }
+        terms.remove(terms.size() - 1);
+
+        this.composition = terms.toArray(new X[0]);
         sort();
     }
 
