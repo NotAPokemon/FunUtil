@@ -1,5 +1,6 @@
 package dev.korgi.web.math;
 
+@SuppressWarnings("unused")
 public class MustangMath {
     private Function function;
     private RationalFunction rFunction;
